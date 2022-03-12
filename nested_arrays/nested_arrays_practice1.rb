@@ -2,30 +2,17 @@
 #     For example, [[1, 3], [8, 9], [2, 16]] becomes [1, 3, 8, 9, 2, 16].
 
 numbers = [[1, 3], [8, 9], [2, 16]]
-
+flat_array = []
 i = 0
-a = 0
-new_array = []
-
-numbers.each do |number|
-  arrays.each do |array|
-    new_array << numbers[i][a]
+while i < numbers.length
+  number = numbers[i]
+  a = 0
+  while a < number.length
+    number_array = number[a]
+    flat_array << number_array
     a += 1
   end
   i += 1
-  a = 0
 end
 
-p new_array
-
- 
-# new_array << array
-
-# i = 0
-# new_array = []
-# numbers.each do |number|
-#   array = numbers[i]
-#   new_array << array
-# end
-
-# p new_array
+p flat_array
