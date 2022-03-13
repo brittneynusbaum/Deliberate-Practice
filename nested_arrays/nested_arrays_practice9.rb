@@ -3,10 +3,24 @@
 
 ## Practice Round 2 ##
 
+numbers = [2, 5, 3, 1, 0, 7, 11]
+sum_ten = []
+i = 0
+while i < numbers.length
+  a = 0
+  while a < numbers.length
+    if numbers[i] + numbers[a] == 10 && numbers[i] != numbers[a]
+      result = sum_ten << numbers[i]
+      if numbers[i] + numbers[a] != 10
+        result = "false"
+      end
+    end
+    a += 1
+  end
+  i += 1
+end
 
-
-
-
+p result
 
 
 
