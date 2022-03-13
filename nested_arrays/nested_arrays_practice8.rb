@@ -3,20 +3,21 @@
 
 ## Practice Round 2 ##
 
+numbers = [1, 8, 3, 10]
+i = 1
+sum = []
+while i < numbers.length
+  a = 0
+  while a < numbers.length
+    if numbers[i] != numbers[a]
+      sum << numbers[i] + numbers[a]
+    end
+    a += 1
+  end 
+  i += 1
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+p sum.sort[-1]
 
 ## Practice Round 1 ##
 
