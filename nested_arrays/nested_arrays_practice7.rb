@@ -3,20 +3,19 @@
 
 ## Practice Round 2 ##
 
+numbers = [2, 8, 3]
+i = 0
+products = []
+while i < numbers.length
+  a = 0
+  while a < numbers.length
+    products << numbers[i] * numbers[a]
+    a += 1
+  end
+  i += 1
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+p products
 
 ## Practice Round 1 ##
 
