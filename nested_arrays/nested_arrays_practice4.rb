@@ -3,21 +3,21 @@
 
 ## Practice Round 2 ##
 
+numbers = [5, -2, 1, -9, -7, 2, 6]
+product = []
+i = 0
+while i < numbers.length
+  a = 0
+  while a < numbers.length
+    if numbers[i] != numbers[a] 
+      product << numbers[i] * numbers[a] 
+    end
+    a += 1
+  end
+  i += 1
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p product.sort[-1]
 
 ## Practice Round 1 ##
 
