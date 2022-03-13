@@ -3,11 +3,20 @@
 
 ## Practice Round 2 ##
 
+arrays = [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]]
+i = 0
+string = ""
+while i < arrays.length
+  nested_array = arrays[i]
+  a = 0
+  while a < nested_array.length
+    string << nested_array[a]
+    a += 1
+  end
+  i += 1
+end
 
-
-
-
-
+p string
 
 
 
