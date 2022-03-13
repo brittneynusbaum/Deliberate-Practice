@@ -3,21 +3,20 @@
 
 ## Practice Round 2 ##
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+letters = ["a", "b", "c", "d"]
+combination = []
+i = 0
+while i < letters.length
+  a = 0
+  while a < letters.length
+    if letters[i] != letters[a]
+      combination << letters[i] + letters[a]
+    end
+    a += 1
+  end
+  i += 1
+end
+p combination
 
 ## Practice Round 1 ##
 
