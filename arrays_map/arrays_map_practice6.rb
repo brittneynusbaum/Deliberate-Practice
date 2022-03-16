@@ -3,13 +3,14 @@
 
 ## Round 2 ##
 
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+age = []
 
+people.each do |person|
+  age << person[:age]
+end
 
-
-
-
-
-
+p age
 
 
 
@@ -20,9 +21,9 @@
 
 ## Round 1 ##
 
-array_hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
-age = []
-array_hashes.each do |array_hash|
-  age << array_hash[:age]
-end
-p age
+# array_hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# age = []
+# array_hashes.each do |array_hash|
+#   age << array_hash[:age]
+# end
+# p age
