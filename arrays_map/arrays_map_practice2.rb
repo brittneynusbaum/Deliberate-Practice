@@ -3,14 +3,14 @@
 
 ## Round 2 ##
 
+strings = ["hello", "goodbye"]
+upcase = []
 
+strings.each do |string|
+  upcase << string.upcase
+end
 
-
-
-
-
-
-
+p upcase
 
 
 
@@ -20,9 +20,9 @@
 
 ## Round 1 ##
 
-strings = ["hello", "goodbye"]
-upcase = []
-strings.each do |string|
-  upcase << string.upcase
-end
-p upcase
+# strings = ["hello", "goodbye"]
+# upcase = []
+# strings.each do |string|
+#   upcase << string.upcase
+# end
+# p upcase
