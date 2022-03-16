@@ -3,14 +3,14 @@
 
 ## Round 2 ##
 
+numbers = [1, 2, 3]
+divided = []
 
+numbers.each do |number|
+  divided << number.to_f / 2
+end
 
-
-
-
-
-
-
+p divided
 
 
 
@@ -20,10 +20,10 @@
 
 ## Round 1 ##
 
-numbers = [1, 2, 3]
-divided_two = []
-numbers.each do |number|
-  divided_two << number.to_f / 2
-end
+# numbers = [1, 2, 3]
+# divided_two = []
+# numbers.each do |number|
+#   divided_two << number.to_f / 2
+# end
 
-p divided_two
+# p divided_two
