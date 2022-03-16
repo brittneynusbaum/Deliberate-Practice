@@ -3,13 +3,14 @@
 
 ## Round 2 ##
 
+strings = ["hello", "goodbye"]
+first_letter = []
 
+strings.each do |string|
+  first_letter << string[0]
+end
 
-
-
-
-
-
+p first_letter
 
 
 
@@ -20,10 +21,10 @@
 
 ## Round 1 ##
 
-strings = ["hello", "goodbye"]
-first_letter = []
-strings.each do |string|
-  first_letter << string[0]
-end
+# strings = ["hello", "goodbye"]
+# first_letter = []
+# strings.each do |string|
+#   first_letter << string[0]
+# end
 
-p first_letter
+# p first_letter
