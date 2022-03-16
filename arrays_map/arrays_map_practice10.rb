@@ -3,13 +3,14 @@
 
 ## Round 2 ##
 
+numbers = [1, 2, 3]
+string = []
 
+numbers.each do |number|
+  string << number.to_s
+end
 
-
-
-
-
-
+p string
 
 
 
@@ -20,10 +21,10 @@
 
 ## Round 1 ##
 
-numbers =  [1, 2, 3]
-string = []
-numbers.each do |number|
-  string << number.to_s
-end
+# numbers =  [1, 2, 3]
+# string = []
+# numbers.each do |number|
+#   string << number.to_s
+# end
 
-p string
+# p string
