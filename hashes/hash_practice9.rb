@@ -2,8 +2,13 @@
 
 ## Round 2 ##
 
+definitions = {
+  school: "an institution for instruction in a particular skill or field.",
+  test: "the trial of the quality of something:", 
+}
+definitions[:practice] = "habitual"
 
-
+p definitions
 
 
 
