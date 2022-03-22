@@ -2,17 +2,17 @@
 
 ## Round 2 ##
 
+book = {
+  title: "The Hobbit",
+  author: "J.R.R. Tolkein",
+  pages: 310,
+  language: "English"
+}
 
-
-
-
-
-
-
-
-
-
-
+p book[:title]
+p book[:author]
+p book[:pages]
+p book[:language]
 
 
 

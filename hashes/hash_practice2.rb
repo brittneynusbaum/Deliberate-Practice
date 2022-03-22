@@ -18,12 +18,6 @@ p people[0]
 
 
 
-
-
-
-
-
-
 ## Round 1 ##
 
 # person1 = {
