@@ -2,15 +2,15 @@
 
 ## Round 2 ##
 
+shirt = {
+  brand: "Madewell",
+  color: "Green",
+  size: "Large"
+}
 
-
-
-
-
-
-
-
-
+p shirt[:brand]
+p shirt[:color]
+p shirt[:size]
 
 
 
