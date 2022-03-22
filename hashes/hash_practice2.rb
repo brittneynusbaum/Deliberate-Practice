@@ -3,7 +3,13 @@
 ## Round 2 ##
 
 
+people = [
+  {first_name: "Leslie", last_name: "Knope"},
+  {first_name: "Ben", last_name: "Wyatt"},
+  {first_name: "Ron", last_name: "Swanson"}
+]
 
+p people[0]
 
 
 

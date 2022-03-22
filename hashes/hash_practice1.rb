@@ -18,10 +18,6 @@ p person[:email]
 
 
 
-
-
-
-
 ## Round 1 ##
 
 # person = {
