@@ -2,7 +2,15 @@
 
 ## Round 2 ##
 
+captitals = {
+  California: "Sacramento",
+  Colorado: "Denver",
+  Oregon: "Portland"
+}
 
+captitals[:Washington] = "Seattle"
+
+p captitals
 
 
 
