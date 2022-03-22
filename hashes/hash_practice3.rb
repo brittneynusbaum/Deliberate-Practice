@@ -2,9 +2,15 @@
 
 ## Round 2 ##
 
+menu = {
+  cheeseburger: 13.99,
+  fries: 7.99,
+  milkshake: 12.99
+}
 
+menu[:soda] = 4.99
 
-
+p menu
 
 
 
