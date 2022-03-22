@@ -2,13 +2,13 @@
 
 ## Round 2 ##
 
+books = [
+  {title: "In a Dark Dark Wood", author: "Ruth Ware"},
+  {title: "The Hobbit", author: "J.R.R. Tolkein"},
+  {title: "Annihilation", author: "Jeff VanderMeer"}
+]
 
-
-
-
-
-
-
+p books[2][:author]
 
 
 
