@@ -2,11 +2,11 @@
 
 ## Round 2 ##
 
+puts "Enter two words, one at a time: "
+user_input1 = gets.chomp
+user_input2 = gets.chomp
 
-
-
-
-
+puts (user_input1 + " " + user_input2).upcase
 
 
 
