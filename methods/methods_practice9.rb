@@ -2,11 +2,11 @@
 
 ## Round 2 ##
 
+puts "Enter two numbers, one at a time:"
+user_input1 = gets.chomp.to_i
+user_input2 = gets.chomp.to_i
 
-
-
-
-
+puts user_input1 * user_input2
 
 
 
