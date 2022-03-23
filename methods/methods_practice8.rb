@@ -2,11 +2,12 @@
 
 ## Round 2 ##
 
+puts "Enter a number: "
+user_input = gets.chomp.to_i
 
-
-
-
-
+if user_input < 0
+  puts "That's a negative number!"
+end
 
 
 
