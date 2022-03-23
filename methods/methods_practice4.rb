@@ -2,10 +2,10 @@
 
 ## Round 2 ##
 
+puts "Enter a word: "
+user_input = gets.chomp
 
-
-
-
+puts user_input.reverse
 
 
 
