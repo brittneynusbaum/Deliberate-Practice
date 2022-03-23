@@ -2,12 +2,12 @@
 
 ## Round 2 ##
 
+puts "Enter a number:"
+user_unput = gets.chomp.to_i
 
-
-
-
-
-
+if user_unput > 100
+  puts "That's a big number!"
+end
 
 
 
