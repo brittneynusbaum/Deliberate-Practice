@@ -2,7 +2,15 @@
 
 ## Round 3 ##
 
+capitals = {
+  California: "Sacramento",
+  Denver: "Colorado",
+  Washington: "Seattle"
+}
 
+capitals[:Oregon] = "Portland"
+
+p capitals
 
 
 
