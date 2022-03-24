@@ -1,16 +1,34 @@
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
+## Round 3 ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Round 2 ##
 
-shirt = {
-  brand: "Madewell",
-  color: "Green",
-  size: "Large"
-}
+# shirt = {
+#   brand: "Madewell",
+#   color: "Green",
+#   size: "Large"
+# }
 
-p shirt[:brand]
-p shirt[:color]
-p shirt[:size]
+# p shirt[:brand]
+# p shirt[:color]
+# p shirt[:size]
 
 
 

@@ -1,18 +1,35 @@
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
+## Round 3 ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Round 2 ##
 
-book = {
-  title: "The Hobbit",
-  author: "J.R.R. Tolkein",
-  pages: 310,
-  language: "English"
-}
+# book = {
+#   title: "The Hobbit",
+#   author: "J.R.R. Tolkein",
+#   pages: 310,
+#   language: "English"
+# }
 
-p book[:title]
-p book[:author]
-p book[:pages]
-p book[:language]
+# p book[:title]
+# p book[:author]
+# p book[:pages]
+# p book[:language]
 
 
 

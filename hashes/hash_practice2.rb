@@ -1,15 +1,32 @@
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
+## Round 3 ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Round 2 ##
 
+# people = [
+#   {first_name: "Leslie", last_name: "Knope"},
+#   {first_name: "Ben", last_name: "Wyatt"},
+#   {first_name: "Ron", last_name: "Swanson"}
+# ]
 
-people = [
-  {first_name: "Leslie", last_name: "Knope"},
-  {first_name: "Ben", last_name: "Wyatt"},
-  {first_name: "Ron", last_name: "Swanson"}
-]
-
-p people[0]
+# p people[0]
 
 
 
