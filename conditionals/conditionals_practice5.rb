@@ -2,15 +2,17 @@
 
 ## Round 2 ##
 
+x = 25
 
-
-
-
-
-
-
-
-
+if x < 10
+  p 9
+elsif x > 10 && x < 20 
+  p 19
+elsif x > 20 && x < 30
+  p 29
+else
+  p -1
+end
 
 
 
