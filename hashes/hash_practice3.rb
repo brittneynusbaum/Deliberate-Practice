@@ -2,10 +2,15 @@
 
 ## Round 3 ##
 
+items = {
+  toast: 3.99,
+  hashbrowns: 5.09,
+  omlet: 10.50
+}
 
+items[:oatmeal] = 12.05
 
-
-
+p items
 
 
 
