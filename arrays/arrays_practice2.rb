@@ -2,10 +2,10 @@
 
 ## Round 2 ##
 
+letters = ["a", "b", "c", "d"]
 
-
-
-
+letters[1] = 3
+p letters
 
 
 
