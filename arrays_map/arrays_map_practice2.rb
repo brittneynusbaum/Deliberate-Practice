@@ -3,11 +3,14 @@
 
 ## Round 3 ##
 
+strings = ["hello", "goodbye"]
+upcased = []
 
+strings.each do |string|
+  upcased << string.upcase
+end
 
-
-
-
+p upcased
 
 
 
