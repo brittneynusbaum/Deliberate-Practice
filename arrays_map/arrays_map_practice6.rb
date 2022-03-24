@@ -3,10 +3,14 @@
 
 ## Round 3 ##
 
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+age = []
 
+people.each do |person|
+  age << person[:age]
+end
 
-
-
+p age
 
 
 
