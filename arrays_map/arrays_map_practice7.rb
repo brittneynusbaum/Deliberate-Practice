@@ -4,13 +4,14 @@
 ## Round 3 ##
 
 
+numbers = [1, 2, 3]
+divided_two = []
 
+numbers.each do |number|
+  divided_two << number.to_f / 2
+end
 
-
-
-
-
-
+p divided_two
 
 
 
