@@ -2,8 +2,13 @@
 
 ## Round 3 ##
 
+laptops = [
+  {brand: "Apple", model: "Macbook Pro"},
+  {brand: "HP", model: "HP Spectre x360"},
+  {brand: "Dell", model: "XPS 13 Touch Laptop"}
+]
 
-
+p laptops[1][:model]
 
 
 
