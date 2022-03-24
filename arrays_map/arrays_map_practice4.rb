@@ -3,12 +3,14 @@
 
 ## Round 3 ##
 
+numbers = [1, 2, 3]
+plus_seven = []
 
+numbers.each do |number|
+  plus_seven << number + 7
+end
 
-
-
-
-
+p plus_seven
 
 
 
