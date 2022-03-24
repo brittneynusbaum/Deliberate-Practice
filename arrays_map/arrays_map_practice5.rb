@@ -3,10 +3,14 @@
 
 ## Round 3 ##
 
+strings = ["hello", "goodbye"]
+strings_length = []
 
+strings.each do |string|
+  strings_length << string.length
+end
 
-
-
+p strings_length
 
 
 
