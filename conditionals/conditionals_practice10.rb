@@ -2,9 +2,19 @@
 
 ## Round 2 ##
 
+x = 0
 
-
-
+if x > 80
+  p 5
+elsif x < 80 && x > 60
+  p 4
+elsif x < 60 && x > 40
+  p 3
+elsif x < 40 && x > 20
+  p 2
+else
+  p 1
+end
 
 
 
