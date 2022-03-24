@@ -1,14 +1,33 @@
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
 
-strings = ["hello", "goodbye"]
-length = []
+## Round 3 ##
 
-strings.each do |string|
-  length << string.length
-end
 
-p length
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Round 2 ##
+
+# strings = ["hello", "goodbye"]
+# length = []
+
+# strings.each do |string|
+#   length << string.length
+# end
+
+# p length
 
 
 

@@ -1,25 +1,32 @@
 #  1. Start with an array of numbers and create a new array with each number times 3.
 #     For example, [1, 2, 3] becomes [3, 6, 9].
 
-## Round 2 ##
+
+## Round 3 ##
 
 numbers = [1, 2, 3]
-product = []
+new_array = []
+
 numbers.each do |number|
-  product << number * 3
+  new_array << number * 3
 end
 
-p product
+p new_array
 
 
 
 
 
 
+## Round 2 ##
 
+# numbers = [1, 2, 3]
+# product = []
+# numbers.each do |number|
+#   product << number * 3
+# end
 
-
-
+# p product
 
 ## Round 1 ##
 
