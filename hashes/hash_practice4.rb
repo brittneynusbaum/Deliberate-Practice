@@ -2,6 +2,15 @@
 
 ## Round 3 ##
 
+book = {
+  title: "The Hobbit",
+  author: "J.R.R. Tolkein",
+  pages: 310
+}
+
+p book[:title]
+p book[:author]
+p book[:pages]
 
 
 
