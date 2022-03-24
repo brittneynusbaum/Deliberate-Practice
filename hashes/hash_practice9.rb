@@ -2,11 +2,11 @@
 
 ## Round 3 ##
 
+definitions = {testing: "the trial of the quality of something:", school: "an institution for instruction in a particular skill or field."}
 
+definitions[:code] = "to translate (a message) into a code; encode."
 
-
-
-
+p definitions
 
 
 
