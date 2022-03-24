@@ -3,14 +3,14 @@
 
 ## Round 3 ##
 
+numbers = [1, 2, 3]
+strings = []
 
+numbers.each do |number|
+  strings << number.to_s
+end
 
-
-
-
-
-
-
+p strings
 
 
 

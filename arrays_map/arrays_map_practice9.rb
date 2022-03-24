@@ -3,12 +3,14 @@
 
 ## Round 3 ##
 
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+times_two = []
 
+people.each do |person|
+  times_two << person[:age] * 2
+end
 
-
-
-
-
+p times_two
 
 
 
