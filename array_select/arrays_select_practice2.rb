@@ -3,12 +3,15 @@
 
 ## Round 2 ##
 
+strings = ["winner", "winner", "chicken", "dinner"]
+starts_w = []
 
-
-
-
-
-
+strings.each do |string|
+  if string[0] == "w"
+    starts_w << string
+  end
+end
+p starts_w
 
 
 
