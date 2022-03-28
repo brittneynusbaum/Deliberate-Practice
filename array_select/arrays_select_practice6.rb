@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+shorter_six = []
 
+items.each do |item|
+  if item[:name].length < 6
+    shorter_six << item
+  end
+end
 
-
-
-
-
-
+p shorter_six
 
 
 
