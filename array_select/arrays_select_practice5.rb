@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
+shorter_four = []
 
+strings.each do |string|
+  if string.length < 4
+    shorter_four << string
+  end
+end
 
-
-
-
-
-
+p shorter_four
 
 
 
