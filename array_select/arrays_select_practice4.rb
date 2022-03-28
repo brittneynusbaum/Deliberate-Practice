@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+numbers = [2, 4, 5, 1, 8, 9, 7]
+even = []
 
+numbers.each do |number|
+  if number % 2 == 0
+    even << number
+  end
+end
 
-
-
-
-
-
+p even
 
 
 
