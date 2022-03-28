@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+less_ten = []
 
+items.each do |item|
+  if item[:price] < 10
+    less_ten << item
+  end
+end
 
-
-
-
-
-
+p less_ten
 
 
 
