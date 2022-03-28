@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+numbers = [8, 23, 0, 44, 1980, 3]
+greater = []
 
+numbers.each do |number|
+  if number >= 23
+    greater << number
+  end
+end
 
-
-
-
-
-
+p greater
 
 
 
