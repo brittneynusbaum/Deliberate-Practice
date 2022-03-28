@@ -3,13 +3,16 @@
 
 ## Round 2 ##
 
+strings = ["big", "little", "good", "bad"]
+not_b = []
 
+strings.each do |string|
+  if string[0] != "b"
+    not_b << string
+  end
+end
 
-
-
-
-
-
+p not_b
 
 
 
