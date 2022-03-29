@@ -2,10 +2,10 @@
 
 ## Round 2 ##
 
+strings = ["one", "two"]
+strings << "three"
 
-
-
-
+p strings
 
 
 
