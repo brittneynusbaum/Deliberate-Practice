@@ -2,12 +2,12 @@
 
 ## Round 2 ##
 
-
-
-
-
-
-
+names = ["brittney", "melanie", "rebecca"]
+i = 0
+while i < names.length
+  p names[i]
+  i += 1
+end
 
 
 
