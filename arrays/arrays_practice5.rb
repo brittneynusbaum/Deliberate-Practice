@@ -2,10 +2,10 @@
 
 ## Round 2 ##
 
+strings = ["a", "b", "c"]
+strings[2] = strings[2].upcase
 
-
-
-
+p strings
 
 
 
