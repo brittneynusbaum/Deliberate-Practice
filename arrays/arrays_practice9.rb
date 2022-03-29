@@ -2,8 +2,12 @@
 
 ## Round 2 ##
 
-
-
+numbers = [1, 2]
+i = 0
+while i < numbers.length
+  p numbers[i]
+  i += 1
+end
 
 
 
